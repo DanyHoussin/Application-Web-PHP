@@ -1,0 +1,114 @@
+/* 
+=====================================================
+======================== ALL ========================
+=====================================================
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Poppins');
+
+ *{
+  box-sizing: border-box;
+  padding: 0;
+  margin : 0;
+  font-family: 'Poppins'
+}
+
+:root {
+    --degrader: radial-gradient(rgb(67, 133, 29) 10%, #17572a 70%);
+    --blanc: white;
+}
+
+#wrapper{
+    color: var(--blanc);
+    min-height: 100vh;
+    background: var(--degrader);
+}
+
+/* 
+=====================================================
+======================= MAIN ========================
+=====================================================
+ */
+
+
+.navbar{
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding: 40px 0px;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+
+.navbar a{
+    color: white;
+    transition: 0.1s;
+}
+
+.navbar a:link { 
+    text-decoration: none; 
+} 
+.navbar a:visited { 
+    text-decoration: none; 
+} 
+.navbar a:hover { 
+    color: rgb(206, 206, 206); 
+    transition: 0.1s;
+
+} 
+.navbar a:active { 
+    color:rgb(67, 133, 29);
+}
+
+.addProduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayProduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.success {
+    color: rgb(103, 189, 103);
+}
+
+.error {
+    color: red;
+}
+
+.btn-warning{
+    color: white;
+}
+
+.btn-warning:hover{
+    color: white;
+    background-color: rgb(218, 167, 0);
+}
+.clear {
+    text-decoration: none; 
+    color: white;
+    background:rgb(201, 37, 37) ;
+    transition: 0.1s;
+    margin: 13px 0px;
+    padding :4px 10px;
+    border-radius: 7px;
+
+}
+
+
+.clear:hover { 
+    background-color : rgb(192, 0, 0);
+    transition: 0.1s;
+} 
